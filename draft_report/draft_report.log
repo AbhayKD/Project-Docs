@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.1)  29 SEP 2016 16:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.1)  2 OCT 2016 01:53
 entering extended mode
 **draft_report.tex
 (C:\Users\Abhz\Desktop\Project\draft_report\draft_report.tex
@@ -705,7 +705,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-Overfull \hbox (32.84381pt too wide) in paragraph at lines 20--69
+Overfull \hbox (21.82436pt too wide) in paragraph at lines 20--69
 [][]
  []
 
@@ -718,12 +718,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--69
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 3--7
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
@@ -1209,236 +1237,246 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
-Overfull \hbox (30.7713pt too wide) in paragraph at lines 11--26
+Underfull \hbox (badness 3668) in paragraph at lines 15--15
+\OT1/cmr/m/n/12 out-put with given min-i-
+ []
+
+
+Overfull \hbox (30.7713pt too wide) in paragraph at lines 11--21
 [][] 
  []
 
 
-Overfull \hbox (30.7713pt too wide) in paragraph at lines 29--40
+Underfull \hbox (badness 3514) in paragraph at lines 28--29
+[]|\OT1/cmr/m/n/12 Features should work in
+ []
+
+
+Overfull \hbox (30.7713pt too wide) in paragraph at lines 24--35
 [][] 
  []
 
 
-Overfull \hbox (30.7713pt too wide) in paragraph at lines 43--53
+Overfull \hbox (30.7713pt too wide) in paragraph at lines 38--48
 [][] 
  []
 
 [35
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 79--83
+] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--90
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
 Missing character: There is no Í in font cmr12!
 Missing character: There is no ¾ in font cmr12!
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
-<np.png, id=165, 331.2375pt x 198.7425pt>
+<np.png, id=169, 331.2375pt x 198.7425pt>
 File: np.png Graphic file (type png)
  <use np.png>
-Package pdftex.def Info: np.png used on input line 129.
+Package pdftex.def Info: np.png used on input line 120.
 (pdftex.def)             Requested size: 298.11098pt x 178.86658pt.
- [37]
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--152
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
 [38 <C:/Users/Abhz/Desktop/Project/draft_report/np.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-
- []
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ¦ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ¦ in font cmr12!
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¦ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¦ in font cmr12!
 [40]
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
+
+ []
+
+[41]
 File: DFDONE.png Graphic file (type png)
  <use DFDONE.png>
-Package pdftex.def Info: DFDONE.png used on input line 224.
+Package pdftex.def Info: DFDONE.png used on input line 215.
 (pdftex.def)             Requested size: 346.44426pt x 418.86482pt.
 File: DFDTWO.png Graphic file (type png)
  <use DFDTWO.png>
-Package pdftex.def Info: DFDTWO.png used on input line 231.
+Package pdftex.def Info: DFDTWO.png used on input line 222.
 (pdftex.def)             Requested size: 389.35266pt x 460.71893pt.
- [41] [42]
+ [42] [43]
 File: USECRIME.png Graphic file (type png)
  <use USECRIME.png>
-Package pdftex.def Info: USECRIME.png used on input line 242.
+Package pdftex.def Info: USECRIME.png used on input line 233.
 (pdftex.def)             Requested size: 355.13841pt x 265.93036pt.
- [43]
+ [44]
 File: DEPLOYDIAGRAM.png Graphic file (type png)
 
 <use DEPLOYDIAGRAM.png>
-Package pdftex.def Info: DEPLOYDIAGRAM.png used on input line 250.
+Package pdftex.def Info: DEPLOYDIAGRAM.png used on input line 241.
 (pdftex.def)             Requested size: 295.85458pt x 308.27596pt.
- [44]
+ [45]
 File: ACTIVITYDIAGCRIME.png Graphic file (type png)
  <use ACTIVITYDIAGCRIME.png>
-Package pdftex.def Info: ACTIVITYDIAGCRIME.png used on input line 257.
+Package pdftex.def Info: ACTIVITYDIAGCRIME.png used on input line 248.
 (pdftex.def)             Requested size: 441.52344pt x 560.09111pt.
 
-Overfull \hbox (7.90343pt too wide) in paragraph at lines 257--257
- [][] 
- []
-
-[45]
-File: SEQU.png Graphic file (type png)
- <use SEQU.png>
-Package pdftex.def Info: SEQU.png used on input line 267.
-(pdftex.def)             Requested size: 448.70857pt x 252.49031pt.
-
-Overfull \hbox (15.08856pt too wide) in paragraph at lines 267--267
+Overfull \hbox (7.90343pt too wide) in paragraph at lines 248--248
  [][] 
  []
 
 [46]
-File: STATECHARTCRIME.png Graphic file (type png)
- <use STATECHARTCRIME.png>
-Package pdftex.def Info: STATECHARTCRIME.png used on input line 276.
-(pdftex.def)             Requested size: 463.20236pt x 263.48257pt.
+File: SEQU.png Graphic file (type png)
+ <use SEQU.png>
+Package pdftex.def Info: SEQU.png used on input line 258.
+(pdftex.def)             Requested size: 448.70857pt x 252.49031pt.
 
-Overfull \hbox (29.58235pt too wide) in paragraph at lines 276--276
+Overfull \hbox (15.08856pt too wide) in paragraph at lines 258--258
  [][] 
  []
 
 [47]
+File: STATECHARTCRIME.png Graphic file (type png)
+ <use STATECHARTCRIME.png>
+Package pdftex.def Info: STATECHARTCRIME.png used on input line 267.
+(pdftex.def)             Requested size: 463.20236pt x 263.48257pt.
+
+Overfull \hbox (29.58235pt too wide) in paragraph at lines 267--267
+ [][] 
+ []
+
+[48]
 File: CLASS.png Graphic file (type png)
  <use CLASS.png>
-Package pdftex.def Info: CLASS.png used on input line 284.
+Package pdftex.def Info: CLASS.png used on input line 275.
 (pdftex.def)             Requested size: 294.72536pt x 386.19186pt.
- [48]
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+ [49]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-[49] [50]
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[50] [51]
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
 []|\OT1/cmr/bx/n/12 FUNCTION BE-ING
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 368--368
+Underfull \hbox (badness 1221) in paragraph at lines 359--359
 []|\OT1/cmr/m/n/12 Is unique pat-terns gen-er-
  []
 
 
-Overfull \hbox (34.63536pt too wide) in paragraph at lines 357--377
+Overfull \hbox (34.63536pt too wide) in paragraph at lines 348--368
 [][] 
  []
 
-) [51] (C:\Users\Abhz\Desktop\Project\draft_report\draft_report.aux)
+) [52] (C:\Users\Abhz\Desktop\Project\draft_report\draft_report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1446,7 +1484,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  14712 strings out of 493921
  306543 string characters out of 3144880
- 357969 words of memory out of 3000000
+ 357965 words of memory out of 3000000
  17694 multiletter control sequences out of 15000+200000
  15256 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1460,9 +1498,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on draft_report.pdf (57 pages, 490941 bytes).
+Output written on draft_report.pdf (58 pages, 492554 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
+ 249 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.1)  1 OCT 2016 21:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.1)  2 OCT 2016 00:09
 entering extended mode
 **synopsis.tex
 (C:\Users\Abhz\Desktop\Project\synopsis\synopsis.tex
@@ -865,11 +865,14 @@ p/Project/synopsis/gant1.jpg>]
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  14621 strings out of 493921
  311215 string characters out of 3144880
- 363193 words of memory out of 3000000
+ 363166 words of memory out of 3000000
  17657 multiletter control sequences out of 15000+200000
  14331 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -879,7 +882,7 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on synopsis.pdf (8 pages, 295851 bytes).
+Output written on synopsis.pdf (8 pages, 295852 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
