@@ -1,0 +1,798 @@
+\documentclass[12pt]{extreport}
+
+\usepackage[top=1in,bottom=1.25in,left=1.5in,right=1in]{geometry}
+\usepackage{array}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+\usetikzlibrary{shapes.geometric,fit}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage[nottoc]{tocbibind}
+\usepackage{fancyhdr}
+\usepackage{inputenc}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fixltx2e}
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{14pt}{\Huge}
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+    text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, text width=5em, text centered, rounded corners, minimum height=4cm]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, circle, node distance=3cm,
+    minimum height=2em]
+
+\renewcommand{\cftaftertoctitle}{\hrulefill}
+
+\renewcommand*\contentsname{CONTENTS}
+\renewcommand*{\listfigurename}{LIST OF FIGURES}
+\renewcommand*{\listtablename}{LIST OF TABLES}
+
+
+\setlist[enumerate,1]{label={(\alph*)}}
+\setlist[enumerate,2]{label={(\roman*)}}
+
+\newcounter{parnum}
+\newcommand{\N}{%
+   \noindent\refstepcounter{parnum}%
+    \makebox[\parindent][l]{\textbf{\arabic{parnum}.}}}
+    
+ \setlength{\parindent}{5em}
+    
+         
+ \renewcommand{\arraystretch}{1.2}  
+ 
+\newcolumntype{M}[1]{{\centering\arraybackslash}m{#1}} 
+
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\Huge\bfseries}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+\renewcommand{\cftlottitlefont}{\hspace*{\fill}\Huge\bfseries}
+\renewcommand{\cftafterlottitle}{\hspace*{\fill}}
+\renewcommand{\cftloftitlefont}{\hspace*{\fill}\Huge\bfseries}
+\renewcommand{\cftafterloftitle}{\hspace*{\fill}}
+
+
+\begin{document}
+\begin{titlepage}
+\input{title}
+\end{titlepage}
+
+\pagenumbering{roman}
+\setcounter{page}{2}
+\input{certificate}
+%\pagenumbering{gobble}
+\input{ack}
+%\pagenumbering{gobble}
+
+\input{abstract1}
+
+
+\newpage
+\pagestyle{fancy}
+\pagenumbering{roman}
+\setcounter{page}{4}
+\fancyhf{}
+\fancyhead[LE,RO]{\textit{\leftmark}}
+\fancyhead[RE,LO]{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[RE,LO]{\textit{AISSMS COE, PUNE 2016-17}}
+ 
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+\newpage
+
+\listoffigures
+\newpage
+\listoftables
+\newpage
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%% CHAPTER 1 %%%%%%%%%%%%%%%%%%%%%
+\chapter{INTRODUCTION}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\section{BACKGROUND}
+\hspace*{3em}In 21st century, everything is leaning towards automation; may it be your home or car. There is an unbelievable change in; rather advancement in technology over the last few years. Believe it or not, in today's world you can interact with your machine. What is interacting with a machine? Obviously giving it some input, but what if the input is not in the conventional way of typing, rather it is your own Voice. What if you are talking to the machine, giving it commands and wanting the machine to interact with you like your assistant. What if the machine is not giving you answers just by showing you the best results but also by advising you with a better alternative. An easy access to machine with voice commands is the revolutionary way of human-system interaction.\\
+
+\noindent
+To achieve this, we need to use speech to text API for understanding the input. Many companies like Google, Amazon and Apple are trying to achieve this in generalized form. Isn’t it amazing that you can set reminders by just saying “remind me to ....” or set alarm with “wake me up at …”.\\
+
+\noindent
+Understanding the importance of this we have decided to make a system that can be placed anywhere in vicinity and you can ask it to help you do anything for you just by speaking with it. Not only this you can also connect two such devices through WiFi and make them communicate with each other in future. This device can be very handy for day to day use and it can help you function better by constantly giving you reminders and updates. 
+Why would we need it? Because your own voice is turning into a best input device than a conventional Enter Key.\\
+
+\section{PROBLEM STATEMENT}
+\noindent
+To develop a hardware system which takes the input through voice commands and perform the various actions and keeps learning the context of these commands to further improvise the responses in future and help humans with day-to-day workforce.\\
+
+
+
+\section{PURPOSE}
+\noindent
+The purpose of this project to ease the human effort by helping them out with whatever they need. May it be there reminders, setting their alarms, helping them out with their navigation, weather updates, etc. It represents a detailed description of the Voice Based Personal Assistant System. It will explain the interfaces of the system, what the system will do, the constraints under which it must operate and how the system will react to external stimuli? This project can act as a prototype for many advanced applications.\\
+
+
+\section{SCOPE}
+\hspace{3em}
+This system will be a Voice Based Personal Assistant System for a home and personal use. It will be designed to minimize the human efforts to interact with many other subsystem, which would otherwise have to be performed manually. By achieving this, the system will make human life comfortable.\\
+
+\noindent
+More specifically, this system is designed to interact with other subsystems intelligently and control those other devices or subsystems, this includes IoT devices or getting news from Internet, providing other information, getting personalized data saved previously on the system, etc. The software will facilitate ease of access to various other devices and platforms. The system will also contain an android application to add more details to system from the smart-phone over the Internet.\\
+
+\noindent
+It always keeps listing for its name and wakes up to response upon calling with the assigned functionality. It can be a very crucial device in future. It will be useful for accessing any kind of information. For children, they can just ask for “What is the highest peak in the world” and it’ll simply reply as “Mount Everest”. You can just click the picture of anything from the app and it’ll response you with its contents. It keeps learning the sequence of questions asked to it related to its context which it remembers for the future. So when the same context is mentioned, it starts a conversation with you asking relevant questions.\\
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%% CHAPTER 2 %%%%%%%%%%%%%%%%%%%%%
+\chapter{LITERATURE SURVEY}
+
+\section{PRESENT WORK} 
+
+\textbf{1. Interacting With Computers by Voice: Automatic Speech Recognition and Synthesis}\\
+\textbf{Authors : DOUGLAS O’SHAUGHNESS}\\\\
+This paper has examined the basic aspects of human–computer interactions via voice. The basic approaches and methods of ASR and synthesis have been discussed. Microprocessors can easily handle the computation speeds needed for many synthesizers, and many function entirely in software. However, the memory requirements of modern waveform concatenation systems strain the capacities of some practical systems.\\\\
+\textbf{2. Analysis of Machine Translation and Speech Synthesis Speech-To-Speech Trnaslation System}\\
+\textbf{Authors : KEI HASHIMOTO, JUNICHI YAMAGISHI, WILLIAM BYRNE, SIMON KING, KEIICHI TOKUDA }\\\\
+This paper has provided an analysis of the impacts of machine translation and speech synthesis on speech-to-speech translation. We have shown that the naturalness and intelligibility of the synthesized speech are strongly affected by the fluency of the translated sentences. The intelligibility of synthesized speech is improved as the translated sentence become more ﬂuent.\\
+\\\\
+\textbf{3. On the track of Artificial Intelligence: Learning with Intelligent Personal Assistants}\\
+\textbf{Authors : NIL GOKSEL-CANBEK, MEHMET EMIN MUTLU}\\\\
+The paths of this study regarding IPAs is intended to reveal an overview on how and to what extent these devices might be used in human-computer interaction and learning. In this connection, the working systems of the IPAs namely Apple’s Siri, Google Now and Microsoft Cortana are revised within the context of AI. Although there have been several works related to IPAs in education. The potential use of IPAs for second language learning within Natural Language Processing (NLP) should be focused particularly.\\
+\\\\
+\textbf{4. Chatbot-Assiting: SIRI}\\
+\textbf{Authors : HARSHITA PHATNANI, Mr. JYOTIPRAKASH PATRA, ANKIT SHARMA}\\\\
+Siri's first Apple iteration opens minds and speaks loudly to Siri's potential. What struck us is that even with this initial release one can readily imagine a sea change in the way humans interact with mobile. My voice application business allowed us to see the potential of truly great natural language voice technologies. The few great applications we found left us believing that someday, voice will handle large numbers of everyday tasks and, where appropriate, even more complex things.\\\\
+\textbf{5. An Intelligent Voice Assistant Using Android Platform}\\\textbf{Authors : SUTAR SHEKHAR, POPHALI SAMEER, KAMAD NEHA, Prof. DEVKATE LAXMAN}\\\\
+We have developed application in which user can easily send a message with their voice commands and also tried to use the most of the inbuilt application with voice command. But all these applications have adaptions for the English language. We are also surveying to use the mailing and calendar where user will be able to mail and also create their event using voice command.\\\\
+\textbf{6. Home Automation Using IOT}\\
+\textbf{Authors : VINAY SAGAR, KUSUMA SM}\\\\
+Home automation using IOT has been experimentally proven to work satisfactorily by connecting simple appliances to it and the application appliances were successfully controlled remotely through internet. The designed system not only monitors the sensor data like temperature, gas, light, motion sensors but also actuates a process according to the requirement. For instance, switching on the lights when it gets dark. It also stores the sensor parameters in the cloud in a timely manner. This will help user to analyze the condition of various parameters in the home anytime anywhere.\\\\
+\textbf{7. RASPBERRY PI BASED ROBOT WITH CLOUD TECHNOLOGY}\\
+\textbf{Authors :  Prof. GOKILAVANI R, NAVANEETHAN S}\\\\
+The data monitored has been updated to the firebase cloud server with the help of wifi and the continuous access from anywhere is feasible. The proposed method contains the raspberry pi and the sensor devices. The output sensor data is updated to the cloud server; the updated sensor values can be viewed on its own smart phone. The commands can be sent to server by using WiFi using the IP address of raspberry pi toolkit.\\\\
+\textbf{8. Exploring IOT Application Using Raspberry Pi}\\
+\textbf{Authors : CHEAH WAI ZHAO, JAYANAND JEGATHEESAN, SON CHEE LOON }\\\\
+Raspberry PI is useful for small application development because it can be used to integrate with many components such as speakers, LED lights, sensors, cameras and wireless communication units to develop smart applications. It is very important to protect the file in order to maintain data consistency and accuracy. File sharing is widely used ranging from small-medium sized company to big company. One of the reason is that, admin can easily manage the file and client can access the file efficiently.\\\\
+\textbf{9. Natural Language Processing}\\
+\textbf{Authors : ABHIMANYU CHOPRA, ABHINAV PRASHAR, CHANDRESH SAIN}\\\\
+The strength of the capabilities to use natural language for query specification and retrieval bags over the keyword, key-phrase approaches. We believe that the restricted use of natural language in captions for multimedia data abstraction is less cumbersome task than the full natural language fact abstraction and feel that can be judged and build upon not only for abstracting images but also the form so multimedia (audio, video, text, data etc) data as input sources.\\\\
+\textbf{10. A study of techniques for facial detection and expression classification}\\
+\textbf{Authors : G. HEMALATHA, C.P. SUMATHI}\\\\
+Although human recognize facial expressions virtually without effort or delay, reliable expression recognition by machine is still a challenge, in achieving optimal pre-processing, feature extraction or selection, and classification, particularly under conditions of input data variability.To attain successful recognition performance, most current expression recognition approaches require some control over the imaging conditions because many real-world applications requires operational flexibility.\\\\
+
+\section{PROPOSED WORK}
+\textbf{Our proposed system will provide following features:}
+\begin{itemize}
+\item Performing Arithmetic calculations based on voice commands and giving back the computed solution through a voice.
+\item Searching Internet based on user's voice input and giving back the reply through a voice with further interactive questions by the machine.
+\item Checking the weather conditions of the user’s location.
+\item Playing music as per voice command of the user.
+\item Notify using push notification.
+\item Wakes you up by setting your alarm.
+\item It will connect itself with smart-phone through WiFi.
+\item It will keep itself updated by the data on its cloud server.
+\item It sets your reminders.
+\item It spells your word correctly for you.
+\item It shows you the distance between two locations.
+\item It switch ONs and switch OFFs your light.
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%% CHAPTER 3 %%%%%%%%%%%%%%%%%%%%%
+
+\chapter{SOFTWARE REQUIREMENTS SPECIFICATION}
+
+\section{INTRODUCTION}
+\hspace*{3em}Nowadays, everything is leaning towards automation; may it be your home or car. To achieve this, one of the way is to use voice commands to control and interact with the objects around us, get news or any information over the internet. An easy access to machine with voice commands is the revolutionary way of human-system interaction. Many companies like Google, Amazon and Apple are trying to achieve this in generalized form. Isn’t it amazing that you can set reminders by just saying “remind me to ....” or set alarm with “wake me up at …”. Understanding the importance of this we have decided to make a system that can be placed anywhere in vicinity and you can ask it to help you do anything for you just by speaking with it. Why would we need it? Because your own voice is turning into a best input device than a conventional Enter Key.\\
+\noindent
+     \subsection{PROJECT SCOPE}
+    \begin{itemize}
+    \item It always keeps listing for its name and wakes up to response upon calling with the assigned functionality.
+    \item It can be a very crucial device in future. It will be useful for accessing any kind of information. For children, they can just ask for “What is the highest peak in the world” and it’ll simply reply as “Mount Everest”.
+    \item You can just click the picture of anything from the app and it’ll response you with its contents.
+    \item It keeps learning the sequence of questions asked to it related to its context which it remembers for the future. So when the same context is mentioned, it starts a conversation with you asking relevant questions.
+\end{itemize}
+     \subsection{USER CLASSES AND CHARACTERISTICS}
+\hspace*{3em}This project is meant to provide a faster, easier, convenient and sophisticated way to interface with our environment and providing quick results for voice commands. Consequently, the application will be able to predict more accurately the user related data as the usage of system increases i.e; it gathers or analyses more amount of data related to similar type of usage. The user interface will be as intuitive as possible. The concept is to let the user feel as having a personal assistant for their jobs that are performed daily. Any user can use this system as long as the system is able to understand the user's voice command.
+     \subsection{OPERATING ENVIRONMENT}
+\hspace*{3em}The main component of our project is the hardware-software system that we are designing to ease the process of interfacing with various devices and extracting information over Internet. The system will require to store and acquire significant amount of data per user over the Internet so it requires a decent amount of storage space and good network connectivity.
+     \subsection{DESIGN AND IMPLEMENTATION CONSTRAINTS}
+     \begin{itemize}
+     \item Primary constraint is that it is network dependent since it uses API's from different providers to fetch information.
+     \item It works only with English language.
+     \item One of the constraints is background noise in fetching commands through voice.
+     \item Data flow is unidirectional as Firebase cloud server only sends the data and does not receive any type of data.
+     \item The device is not designed for a particular voice and hence it can be less secure since anyone can use it.
+     \end{itemize}
+\newpage
+\noindent
+     \subsection{ASSUMPTIONS AND DEPENDENCIES}
+     This project will work on the minimum system specifications as follow:
+\begin{itemize}
+\item Raspberry pi controller.
+\item Arduino Uno microprocessor.
+\item 16 GB MicroSD flash memory.
+\item Minimum 512GB LPDDR3 RAM.
+\item Internet connection and smooth access to a network of computers of same physical system configuration.
+\item Data stored and accessed from Firebase cloud server database.
+\item Natural language toolkit.
+\end{itemize}
+
+%\section{SYSTEM FEATURES}
+%This section describes the User interfaces, Hardware interfaces, Software interfaces and Communication interfaces relevant to our project's software application.
+\section{EXTERNAL INTERFACE REQUIREMENTS}
+
+ \subsection{USER INTERFACES}
+ \begin{itemize}
+ \item User interface includes voice commands.
+ \item Another interface includes updated data through android application.
+ \item Device will have a screen which will show speech to text data. 
+ \end{itemize}
+
+    \subsection{HARDWARE INTERFACES}
+\begin{itemize}
+    \item Raspberry pi Model B
+    \item Arduino Uno
+    \item Neo-pixel ring
+    \item nRF24L01 Transcievers
+    \item Servo motor
+\end{itemize}
+    
+    \subsection{SOFTWARE INTERFACES}
+\begin{itemize}
+\item NLTK
+\item C++
+\item Python
+\item Java
+\item XML
+\item Firebase API
+\item Google API
+\end{itemize}
+
+\section{OTHER REQUIREMENTS}
+\subsection{DATABASE REQUIREMENT}
+\begin{itemize}
+\item Firebase Cloud database
+\item Ease of Development and Integration of Various Modules of applications
+\item Data Availability for Platform
+\item Real-time Performance of the Firebase Cloud Services
+\end{itemize}
+
+\section{NON-FUNCTIONAL REQUIREMENTS}
+\hspace*{3em}These requirements don't affect the system features but play an important role in deciding other factors that are important for a software application to be reliable.
+     \subsection{PERFORMANCE REQUIREMENTS}
+\hspace*{3em}The system needs to be alert always and it should respond as soon as it gets initialization command through voice. The system should perform its tasks efficiently with minimum amount of time. System should be reliable and robust.
+
+     \subsection{SOFTWARE QUALITY ATTRIBUTES}
+The application software gives justice to important quality attributes such as:
+\begin{itemize}
+\item \textbf{Flexibility:}\\ commands related to various domains should be performed by the system.
+\item \textbf{Reliability:}\\ System should perform tasks according to its specifications.
+\item \textbf{Usability:}\\Provides simple user interface easily accessible by the users.
+\item \textbf{Scalability:}\\System can be used for variable data as well as is scalable on multiple systems over same network.
+\item \textbf{Security:}\\Secure as the system asks for user's credentials to provide access to system.
+\item \textbf{Dependability:}\\Application software is dependable on the online data collection by Firebase cloud server.
+\end{itemize}     
+
+\section{ANALYSIS MODEL}
+
+     \subsection{DATA FLOW DIAGRAMS}
+     
+    \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.60]{sysflow.png}\\
+    \caption{Data-flow Diagram}
+    \end{figure}
+
+
+   %  \subsection{ENTITY RELATIONSHIP DIAGRAMS}
+     \pagebreak
+     \subsection{MATHEMATICAL MODEL}
+     \textbf{Mathematical Formulation:}\\
+Let the M i the universal states which contains, \\
+    \textbf{M = \{Q, S, F, Q1 , Qf \}} \newline
+    where, \\
+    \newline
+    		Q = No. of states \{Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8\}\\
+    		X = No. of states \{X1, X2, X3, X4\}\\
+    		Q1 = Initial State.\\
+    		S = Success state.\\
+    		F = Failure state.\\
+    		\newline
+    where,\\ 
+    \newline
+    Q1= Start.\\
+     \newline
+    Q2 = Initialize assistant by calling action word. \\
+    \newline
+    Q3 = Once initialized, give input in the speech format.\\
+    \newline
+    Q4 = Processing of speech into text.\\
+    \newline 
+    Q5 = Text is compared with commands.\\
+    \newline
+    Q6 = Perform action according to command.\\
+    \newline 
+    Q7 = Convert the action into speech.\\
+    \newline 
+    Q8 = Give output in the speech format.\\
+    \newline
+    X1 = Connect Personal AI Device to mobile application.\\
+    \newline
+    X2 = Update To-Do list, Calender, Alarm, reminder, etc.\\
+    \newline
+    X3 = Updated data is sent to cloud server.\\
+    \newline
+    X4 = According to the data sent, AI Device will take action.\\
+    \newline
+\noindent 
+\textbf{Failure Conditions:}  F = \{F1,F2,F3\}
+\begin{itemize}
+\item F1  = Failure if the device is not initialised due to noisy background.
+\item F2 = Connection with android app failed.
+\item F3 = Server down failure or cannot retrieve data from server.
+\end{itemize}
+
+\noindent
+\textbf{Success Conditions:} S = \{S1\}
+\begin{itemize}
+\item S1 = Success after the data is assimilated and output is produced accordingly.\end{itemize}     
+
+\subsection{ACITIVITY DIAGRAM}
+\begin{tikzpicture}[node distance = 6cm, auto, line width=1pt,>=latex]
+    % Place nodes
+    \node [cloud] (Q1) {Q1};
+    \node [cloud, right of=Q1] (Q2) {Q2};
+    \node [cloud, right of=Q2] (Q3) {Q3};
+    \node [cloud, right of=Q3] (f1) {F1};
+    \node [cloud, below of=f1] (Q4) {Q4};
+    \node [cloud, below of=Q4] (Q5) {Q5};
+    \node [cloud, below of=Q5] (Q6) {Q6};
+    \node [cloud, below of=Q6] (Q7) {Q7};
+    \node [cloud, below of=Q7] (Q8) {Q8};
+    \node [cloud, left of=Q4] (x1) {X1};
+    \node [cloud, left of=x1] (f2) {F2};
+    \node [cloud, left of=Q5] (x2) {X2};
+    \node [cloud, left of=Q6] (x3) {X3};
+    \node [cloud, left of=x3] (f3) {F3};
+    \node [cloud, left of=Q7] (x4) {X4};
+    \node [cloud, below of=Q7] (Q8) {};
+    % Draw edges
+    \path [line] (Q1) -- (Q2);
+    \path [line] (Q2) -- (Q3);
+    \path [line] (Q3) -- (Q4);
+    \path [line] (Q3) -- (f1);
+    \path [line] (Q4) -- (Q5);
+    \path [line] (x1) -- (f2);
+    \path [line] (x3) -- (f3);
+    \path [line] (Q5) -- (Q6);
+    \path [line] (Q6) -- (Q7);
+    \path [line] (Q7) -- (Q8);
+    \path [line] (x1) -- (x2);
+    \path [line] (x2) -- (x3);
+    \path [line] (x3) -- (x4);
+    \path [line] (x1) -- (Q5);
+    \path [line] (x4) -- (Q7);
+    \path [line] (f2) -- (Q1);
+    \path [line] (f3) -- (x1);
+
+    \end{tikzpicture}
+
+  \newpage
+
+\section{SYSTEM IMPLEMENTATION PLAN}
+
+\begin{table}[ht]
+\caption{System Implementation Plan Phase-I}
+\vspace{1em}
+\begin{tabular}{ |p{2cm}|p{7cm}|p{2.5cm}|p{3.2cm}|  }
+ \hline
+ \textbf{SR. NO.} & \textbf{TASK NAME} & \textbf{DURATION} & \textbf{COMPLETION}\\
+ \hline
+ 
+
+
+  1. & Project Topic Selection &  12 days & $\checkmark$\\
+  \hline
+  2. & Literature Survey&  15 days& $\checkmark$\\
+  \hline
+  3. & Study Of Existing System  &  10 days & $\checkmark$\\
+  \hline
+  4. & Synopsis \& Abstract Submission  &  15 days & $\checkmark$\\
+  \hline
+   5. & SRS   &  15 days & $\checkmark$\\
+   \hline
+   6. & Design Of System Architecture &  8 days & $\checkmark$\\
+  \hline
+  7. & Design Of UML Diagrams  &  3 days & $\checkmark$\\
+  \hline
+    8. & Planning Of System Modules \& Interface &  10 days & $\checkmark$\\
+  \hline
+ 
+  
+  
+ 
+ \end{tabular}
+ 
+\end{table}
+
+\begin{table}[ht]
+\caption{System Implementation Plan Phase-II}
+\vspace{1em}
+\begin{tabular}{ |p{2cm}|p{7cm}|p{2.5cm}|p{3.2cm}|  }
+ \hline
+ \textbf{SR. NO.} & \textbf{TASK NAME} & \textbf{DURATION} & \textbf{COMPLETION}\\
+ \hline
+ 
+ 9.& Implementation Of Neo-pixels ring \& Servo motor  &	10 Days	& \\
+ \hline
+ 
+10. &Implementation Of nRF24L01 Transciever &	5 Days	&\\
+\hline
+
+11. &Implementation Of IoT box	& 7 Days& \\
+\hline	
+12.&Implementation Of Jasper voice assistant	& 12 Days & \\
+\hline
+13. & Get desired output &	10 Days	& \\
+\hline
+14. & Testing Of Above Modules After Completion of Each Module &	3 Days Per Module	& \\
+\hline
+15. & Project Review &	5 Days & \\
+\hline
+ \end{tabular}
+ 
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%% CHAPTER 4 %%%%%%%%%%%%%%%%%%%%%
+
+\chapter{SYSTEM DESIGN}
+
+\section{SYSTEM ARCHITECTURE}
+The overall system design consists of following modules:
+\begin{enumerate}
+\item Data collection in the form of speech.
+\item Voice analysis and conversion to text
+\item Data storage and processing
+\item Generating speech from the processed text output
+\end{enumerate}
+
+    \begin{figure}[H]
+	\includegraphics[scale=0.57]{systemarchitecture.png}\\
+	\caption{System Architecture}
+	\end{figure}
+
+\noindent	
+System architecture consists of 4 phases, namely; Data collection in the form of voice, voice analysis and conversion to text, data storage and processing, and generating speech from the processed text output. Now, in  Data collection in the form of voice, the data is stored as input for next step. \\
+
+\noindent
+In IoT box, tasks are divided in three modules and data transmission takes place through nRF24L01 transceiver. Task modules used in IoT box are 
+\begin{itemize}
+\item Servo Motor for mechanical movement for object, in our case: Curtains.
+\item Switching on and off Neo-pixel ring.
+\item LED display : Displays the data.
+\end{itemize}
+\noindent
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.75]{IoTArch.png}
+    \caption{IoT architrcture}
+\end{figure}
+\newpage
+\noindent
+Android application helps the user to share his personalized data through android application with ease from anywhere. The data transfer and processing is done through network adapter inbuilt APIs. This data generated is stored in firebase cloud storage and is available for the main system to access. All these tasks are being done in parallel to each other.\\
+
+\noindent
+All the data stored in Firebase cloud DB is accessible to main system and can be retrieved and process as per required. The need of given data is also processed in parallel to continuous fetching of data from the server.\\
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.60]{CloudArch.png}
+    \caption{Firebase cloud server architecture}
+\end{figure}
+
+\noindent
+The input voice is continuously processed and converted to text using STT along with the identifying and processing the commands using Python Script in background. The output then generated is converted from simple text to speech using TTS.\\\\
+	
+\section{UML DIAGRAMS}
+
+\section{DEFINITION}
+\hspace*{3em}The Unified Modelling Language (UML) is a general purpose,developmental, modelling language in the field of software
+engineering, that is intended to provide a standard way to visualize the design of a system. UML was originally motivated by the desire to standardize the disparate notational systems and approaches to software design.
+
+
+\section{DESIGN}
+\hspace{3em}
+The Unified Modelling Language (UML) offers a way to visualize a system's architectural blueprints in a diagram  including elements such as:
+\begin{itemize}
+\item Any activities.
+\item Individual components of the system:
+And how they can interact with other software components.
+\item How the system will run.
+\item How entities interact with others (components and interfaces)
+\item External user interface
+\end{itemize}
+
+\noindent
+Although originally intended solely for object oriented design documentation, the Unified Modelling Language (UML) has been extended to cover a larger set of design documentation.
+
+
+\section{UML SYSTEM MODEL}
+\begin{itemize}
+\item \textbf{Static (or structural) view:}\\
+Emphasizes the static structure of the system using objects, attributes,
+operations and relationships. The structural view includes class diagrams and composite structure
+diagrams.
+\item \textbf{Dynamic (or behavioural) view:}\\
+Emphasizes the dynamic behaviour of the system by showing collaborations among objects and changes to the internal states of objects. This view includes sequence diagrams, activity diagrams and state machine diagrams.
+\end{itemize}
+
+\section{UML MODELS}
+\begin{enumerate}
+\item \textbf{Use case diagram:}\\
+To model a system, the most important aspect is to capture the dynamic behaviour of the system. Hence, use case diagrams are used for designing of the Dynamic nature of the system i.e. nature of the system when it is operating. Use case diagrams consists of actors, use cases and their relationships.\\
+\newline
+\textbf{The purposes of use case diagrams can be as follows:}
+\begin{itemize}
+	\item Used to gather requirements of a system.
+	\item Used to get an outside view of a system.
+	\item Identify external and internal factors influencing the system.
+	\item Show the interacting among the requirements and actors.
+\end{itemize}
+\textbf{Places where use case diagrams are used:}
+\begin{itemize}
+	\item Requirement analysis and high level design.
+	\item Model the context of a system.
+	\item Reverse engineering.
+	\item Forward engineering.
+\end{itemize}
+
+\item \textbf{Deployment Diagram:}\\
+Deployment diagrams are used to picture the topology of the physical components i.e. Hardware components of a system where the software components are deployed. Hence, deployment diagrams are used to sketch the static deployment view of a system. It consists of nodes and their relationships.\\
+\newline
+\textbf{The purpose of deployment diagrams can be described as:}
+\begin{itemize}
+	\item Visualize hardware topology of a system.
+	\item Describe the hardware components used to deploy software components.
+	\item Describe run-time processing nodes.
+\end{itemize}
+
+\textbf{Usage of deployment diagrams can be described as follows:}
+\begin{itemize}
+	\item To model the hardware topology of a system.
+	\item To model embedded system.
+	\item To model hardware details for a client/server system.
+	\item To model hardware details of a distributed application.
+	\item Forward and reverse engineering.
+\end{itemize}
+
+\item \textbf{Activity Diagram:}\\
+Activity diagram is a flow chart to represent the flow of one activity to another activity i.e. an operation of the system. So the control flow is drawn from one operation to another. This flow can be sequential, branched or concurrent. Activity diagrams deals with all type of flow control by using different elements like fork, join etc.\\
+\newline
+\textbf{So the purposes can be described as:}
+\begin{itemize}
+	\item Draw the activity flow of a system.
+	\item Describe the sequence from one activity to another.
+	\item Describe the parallel, branched and concurrent flow of the system.
+\end{itemize}
+\textbf{Following are the main usages of activity diagram:}
+\begin{itemize}
+	\item Modelling work flow by using activities.
+	\item Modelling business requirements.
+	\item High level understanding of the system's functionality.
+	\item Investigate business requirements at a later stage.
+\end{itemize}
+
+\item \textbf{Sequence Diagram:}\\
+The sequence diagram is used to describe some type of interactions among the different elements in the model. So this interaction is a part of dynamic behaviour of the system. Sequence diagram emphasizes on time sequence of data flow across the system.\\
+\newline
+\textbf{Purposes of sequence diagram can be described as:}
+\begin{itemize}
+    \item To capture dynamic behaviour of a system.
+	\item To describe the message flow in the system.
+	\item To describe structural organization of the objects.
+	\item To describe interaction among objects.
+\end{itemize}
+	
+\textbf{Following are the usages of sequence diagrams:}
+\begin{itemize}
+	\item To model flow of control by time sequence.
+	\item To model flow of control by structural organizations.
+	\item For forward engineering.
+	\item For reverse engineering.
+\end{itemize}
+
+\item \textbf{State Chart Diagram:}\\
+The name itself clarifies the purpose of the diagram and other details. It describes different states of a component in a system. The states are specific to a component/object of a system. A State-chart diagram describes a state machine. state machine can be defined as a machine which defines different states of an object and these states are controlled by external or internal events.\\
+\newline
+\textbf{Following are the main purposes of using State-chart diagrams:}
+\begin{itemize}
+	\item To model dynamic aspect of a system.
+	\item To model life time of a reactive system.
+	\item To describe different states of an object during its life time.
+	\item Define a state machine to model states of an object.
+\end{itemize}
+
+\textbf{The main usages of state-chart diagrams are as follows:}
+\begin{itemize}
+	\item To model object states of a system.
+	\item To model reactive system. Reactive system consists of reactive objects.
+    \item To identify events responsible for state changes.
+	\item Forward and reverse engineering.
+\end{itemize}
+
+
+\item \textbf{Class Diagram:}\\
+The class diagram is a static diagram. It represents the static view of an application. Class diagram is used for visualizing, describing, documenting different aspects of a system and for constructing executable code of the software application. The class diagram shows a collection of classes, interfaces, associations, collaborations and constraints. It is also known as a structural diagram.\\
+\newline
+\textbf{Purpose of the class diagram can be summarized as:}
+\begin{itemize}
+	\item Analysis and design of the static view of an application.
+	\item Describe responsibilities of a system.
+	\item Base for component and deployment diagrams.
+	\item Forward and reverse engineering.
+\end{itemize}
+
+\textbf{Class diagrams are used for:}
+ \begin{itemize}
+	\item Describing the static view of the system.
+	\item Showing the collaboration among the elements of the static view.
+	\item Describing the functionality performed by the system.
+	\item Construction of software applications using object oriented languages.
+\end{itemize}
+
+\end{enumerate}
+
+\pagebreak
+    \subsection{USE CASE DIAGRAM}
+    \begin{figure}[H]
+    \centering
+  \includegraphics[scale=0.75]{UseCase.JPG}\\
+  \caption{Use Case Diagram}
+  \end{figure}
+    \pagebreak
+    
+        \subsection{CLASS DIAGRAM}
+    \begin{figure}[H]
+    \centering
+  \includegraphics[scale=0.75]{Class.JPG}\\
+  \caption{Class Diagram}
+\end{figure}
+
+    \subsection{ACTIVITY DIAGRAM}
+    \begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.75]{Activity.JPG}\\
+  \caption{Activity Diagram}
+\end{figure}
+   \pagebreak 
+   
+    \subsection{DEPLOYMENT DIAGRAM}
+     \begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.75]{Deployment.JPG}\\
+  \caption{Deployment Diagram}
+  \end{figure}
+  \pagebreak
+    
+    \subsection{SEQUENCE DIAGRAM}
+    \begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.65]{Sequence.JPG}\\
+  \caption{Sequence Diagram}
+\end{figure}
+ \pagebreak   
+ 
+    \subsection{STATE CHART DIAGRAM}
+    \begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.7]{StateChart.JPG}\\
+  \caption{State Chart Diagram}
+\end{figure}
+\pagebreak
+%%%%%%%%%%%%%%%%%% CHAPTER 5 %%%%%%%%%%%%%%%%%%%%%%
+\chapter{TECHNICAL SPECIFICATION}
+\section{ADVANTAGES}
+\begin{itemize}
+\item User Friendly interface.
+\item Hands-free experience to interact between humans and computers.
+\item It is portable and easy to use.
+\item Connectivity with multiple devices.
+\item Good interface and accessibility.
+\end{itemize}
+
+ \section{DISADVANTAGES}
+     \begin{itemize}
+     \item Primary disadvantage is that it is network dependent since it uses API's from different providers to fetch information.
+     \item It works only with English language.
+     \item One of the constraints is background noise in fetching commands through voice.
+     \item Data flow is unidirectional as Firebase cloud server only sends the data and does not receive any type of data.
+     \item The device is not designed for a particular voice and hence it can be less secure since anyone can use it.
+     \end{itemize}
+     \pagebreak
+ \section{APPLICATIONS}
+\begin{itemize}
+\item Source of entertainment and information for blind/visually impaired.
+\item Voice based calculator can be used to teach visually impaired students or it can be a game for visually sound students. 
+\item Voice based spell corrector.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%% CHAPTER 6 %%%%%%%%%%%%%%%%%%%%%%%
+\chapter{RESULTS}
+\section{EXPECTED RESULTS}
+\hspace*{3em}The project system is supposed to have voice commands as inputs, voice analyser that converts the speech to text, a processor that analyses this text based commands and generate output as the required action performed. There should be minimum noise in the input so as to avoid any error and make the system more efficient hence must have good noise cancellation. The speech to text engine is expected to work in English robustly. The system should respond to user’s request every time and in case of failure, should report the same. The android application should let the user add data such as calendar entries, set alarm, or even reminders. This data should be sent over to system cloud server and help the system keep records by using both input medium. The system should be able to implement home automation using IoT devices.
+
+\chapter{CONCLUSION}
+\noindent
+The developed system will have the following phases:
+\begin{itemize}
+\item Data collection in the form of voice
+\item Voice analysis and conversion to text
+\item Data storage and processing
+\item Generating speech from the processed text output.
+\end{itemize}
+The data generated at every phase can further be used to find patterns and suggest user later. This can be a major base for artificial intelligence machines that learns and understand users.\\
+\noindent
+Thus, on the basis of literature survey and by analysing the existing system, we have come to a conclusion that the proposed system will not only ease to interact with the other systems and modules but also keeps us organised.
+
+\renewcommand{\bibname}{REFERENCES}
+\begin{thebibliography}{11}
+\bibitem{DE} Douglas O’Shaughnessy, Senior Member, IEEE\\
+\textit{Interacting With Computers by Voice: Automatic Speech Recognition and Synthesis}
+
+ 
+\bibitem {} Kei Hashimoto, Junichi Yamagishi, William Byrne, Simon King, Keiichi Tokuda
+\textit{Analysis Of Machine Translation Aand Speech Synthesis In Speech-To-Speech Translation System}\\
+Nagoya Institute of Technology, Department of Computer Science and Engineering, Japan\\ University of Edinburgh, Centre for Speech Technology Research, United Kingdom\\
+Cambridge University, Engineering Department, United Kingdom, ISSN 5108-5111
+
+\bibitem {} Nil Goksel-Canbek ,Mehmet Emin Mutlu\\
+\textit{On the track of Artificial Intelligence: Learning with  Intelligent Personal Assistants}\\ 
+ISSN:1303-5134
+
+\bibitem{} Harshita Phatnani, Mr. Jyotiprakash Patra and Ankit Sharma\\
+ \textit{Chatbot Assisting: Siri}\\ 
+ E-ISSN2249–8974 
+
+\bibitem {} Harshita Phatnani, Mr. Jyotiprakash Patra, Ankit Sharma\\
+\textit{An Intelligent Voice Assistant Using Android Platform}
+
+\bibitem {} Vinay Sagar, Kusuma SM\\
+\textit{Home Automation Using IOT}\\ 
+ ISSN 2395-0056.
+
+\bibitem{} Prof Gokilavani R, Navaneethan S\\
+\textit{Raspberry Pi Based Robot With Cloud Technology}\\ 
+ ISSN 2321 3361
+
+\bibitem{} Cheah Wai Zhao, Jayanand Jegatheesan, Son Chee Loon\\
+\textit{Exploring IOT Application Using Raspberry Pi}
+
+\bibitem{} Abhimanyu Chopra, Abhinav Prashar, Chandresh Sain \\
+\textit{Natural Language Processing}\\
+ISSN 2347-4289
+
+\bibitem{} G. Hemalatha, C.P. Sumathi\\
+\textit{A Study Of Techniques For Facial Detection and Expression Classification}
+\end{thebibliography}
+
+\newpage
+\appendix
+\input{appendixA}
+\input{appendixB}
+
+\end{document}

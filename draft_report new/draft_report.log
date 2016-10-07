@@ -1,0 +1,2019 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.1)  7 OCT 2016 22:45
+entering extended mode
+**draft_report.tex
+("C:\Users\Abhz\Desktop\Project\draft_report new\draft_report.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\extsizes\extreport.cls"
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\exscale.sty"
+Package: exscale 2007/10/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+\big@size=\dimen102
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen112
+\extrarowheight=\dimen113
+\NC@list=\toks16
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen116
+\WF@size=\dimen117
+\c@WF@wrappedlines=\count93
+\WF@box=\box28
+\WF@everypar=\toks20
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
+x"
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen118
+\pgfutil@tempdimb=\dimen119
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
+sts.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+"
+\pgfutil@abb=\box29
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+"
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
+ode.tex"
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen120
+\pgf@y=\dimen121
+\pgf@xa=\dimen122
+\pgf@ya=\dimen123
+\pgf@xb=\dimen124
+\pgf@yb=\dimen125
+\pgf@xc=\dimen126
+\pgf@yc=\dimen127
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count94
+\c@pgf@countb=\count95
+\c@pgf@countc=\count96
+\c@pgf@countd=\count97
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
+ef"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
+df.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
+code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count98
+\pgfsyssoftpath@bigbuffer@items=\count99
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
+code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+"
+\pgfmath@dimen=\dimen128
+\pgfmath@count=\count100
+\pgfmath@box=\box30
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
+tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
+nometric.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
+m.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
+rison.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
+erarithmetics.code.tex")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count101
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
+de.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen129
+\pgf@picmaxx=\dimen130
+\pgf@picminy=\dimen131
+\pgf@picmaxy=\dimen132
+\pgf@pathminx=\dimen133
+\pgf@pathmaxx=\dimen134
+\pgf@pathminy=\dimen135
+\pgf@pathmaxy=\dimen136
+\pgf@xx=\dimen137
+\pgf@xy=\dimen138
+\pgf@yx=\dimen139
+\pgf@yy=\dimen140
+\pgf@zx=\dimen141
+\pgf@zy=\dimen142
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
+ruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen143
+\pgf@path@lasty=\dimen144
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
+.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen145
+\pgf@shorten@start@additional=\dimen146
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
+de.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box31
+\pgf@hbox=\box32
+\pgf@layerbox@main=\box33
+\pgf@picture@serial@count=\count102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
+ate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen147
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
+ations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen148
+\pgf@pt@y=\dimen149
+\pgf@pt@temp=\dimen150
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
+e.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
+ode.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
+ssing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
+de.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen151
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
+e.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen152
+\pgf@sys@shading@range@num=\count103
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
+e.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
+code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box34
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
+de.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
+ncy.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
+code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
+e.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box35
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
+tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen153
+\pgf@nodesepend=\dimen154
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen155
+\pgffor@skip=\dimen156
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
+e.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
+dlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count104
+\pgfplotmarksize=\dimen157
+)
+\tikz@lastx=\dimen158
+\tikz@lasty=\dimen159
+\tikz@lastxsaved=\dimen160
+\tikz@lastysaved=\dimen161
+\tikzleveldistance=\dimen162
+\tikzsiblingdistance=\dimen163
+\tikz@figbox=\box36
+\tikz@figbox@bg=\box37
+\tikz@tempbox=\box38
+\tikz@tempbox@bg=\box39
+\tikztreelevel=\count105
+\tikznumberofchildren=\count106
+\tikznumberofcurrentchild=\count107
+\tikz@fig@count=\count108
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
+e.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count109
+\pgfmatrixcurrentcolumn=\count110
+\pgf@matrix@numberofcolumns=\count111
+)
+\tikz@expandcount=\count112
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.
+code.tex"
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen164
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryautomata.code.tex"
+File: tikzlibraryautomata.code.tex 2008/07/14 v3.0.1a (rcs-revision 1.3)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryshapes.multipart.code.tex"
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibrary
+shapes.multipart.code.tex"
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box40
+\pgfnodeparttwobox=\box41
+\pgfnodepartthreebox=\box42
+\pgfnodepartfourbox=\box43
+\pgfnodeparttwentybox=\box44
+\pgfnodepartnineteenbox=\box45
+\pgfnodeparteighteenbox=\box46
+\pgfnodepartseventeenbox=\box47
+\pgfnodepartsixteenbox=\box48
+\pgfnodepartfifteenbox=\box49
+\pgfnodepartfourteenbox=\box50
+\pgfnodepartthirteenbox=\box51
+\pgfnodeparttwelvebox=\box52
+\pgfnodepartelevenbox=\box53
+\pgfnodeparttenbox=\box54
+\pgfnodepartninebox=\box55
+\pgfnodeparteightbox=\box56
+\pgfnodepartsevenbox=\box57
+\pgfnodepartsixbox=\box58
+\pgfnodepartfivebox=\box59
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibrary
+shapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryfit.code.tex"
+File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box60
+\beforetitleunit=\skip45
+\aftertitleunit=\skip46
+\ttl@plus=\dimen165
+\ttl@minus=\dimen166
+\ttl@toksa=\toks33
+\titlewidth=\dimen167
+\titlewidthlast=\dimen168
+\titlewidthfirst=\dimen169
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip47
+\cftbeforetoctitleskip=\skip48
+\cftaftertoctitleskip=\skip49
+\cftbeforepartskip=\skip50
+\cftpartnumwidth=\skip51
+\cftpartindent=\skip52
+\cftbeforechapskip=\skip53
+\cftchapindent=\skip54
+\cftchapnumwidth=\skip55
+\cftbeforesecskip=\skip56
+\cftsecindent=\skip57
+\cftsecnumwidth=\skip58
+\cftbeforesubsecskip=\skip59
+\cftsubsecindent=\skip60
+\cftsubsecnumwidth=\skip61
+\cftbeforesubsubsecskip=\skip62
+\cftsubsubsecindent=\skip63
+\cftsubsubsecnumwidth=\skip64
+\cftbeforeparaskip=\skip65
+\cftparaindent=\skip66
+\cftparanumwidth=\skip67
+\cftbeforesubparaskip=\skip68
+\cftsubparaindent=\skip69
+\cftsubparanumwidth=\skip70
+\cftbeforeloftitleskip=\skip71
+\cftafterloftitleskip=\skip72
+\cftbeforefigskip=\skip73
+\cftfigindent=\skip74
+\cftfignumwidth=\skip75
+\c@lofdepth=\count113
+\c@lotdepth=\count114
+\cftbeforelottitleskip=\skip76
+\cftafterlottitleskip=\skip77
+\cftbeforetabskip=\skip78
+\cfttabindent=\skip79
+\cfttabnumwidth=\skip80
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip81
+\LTright=\skip82
+\LTpre=\skip83
+\LTpost=\skip84
+\LTchunksize=\count115
+\LTcapwidth=\dimen170
+\LT@head=\box61
+\LT@firsthead=\box62
+\LT@foot=\box63
+\LT@lastfoot=\box64
+\LT@cols=\count116
+\LT@rows=\count117
+\c@LT@tables=\count118
+\c@LT@chunks=\count119
+\LT@p@ftn=\toks34
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip85
+\f@ncyO@elh=\skip86
+\f@ncyO@erh=\skip87
+\f@ncyO@olh=\skip88
+\f@ncyO@orh=\skip89
+\f@ncyO@elf=\skip90
+\f@ncyO@erf=\skip91
+\f@ncyO@olf=\skip92
+\f@ncyO@orf=\skip93
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks35
+\inpenc@posthook=\toks36
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip94
+\enit@outerparindent=\dimen171
+\enit@toks=\toks37
+\enit@inbox=\box65
+\enitdp@description=\count120
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+\c@parnum=\count121
+
+("C:\Users\Abhz\Desktop\Project\draft_report new\draft_report.aux"
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 632.3625pt, 90.3375pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=632.3625pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count122
+\scratchdimen=\dimen172
+\scratchbox=\box66
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen173
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks39
+) ABD: EveryShipout initializing macros
+("C:\Users\Abhz\Desktop\Project\draft_report new\title.tex"
+<logo.png, id=4, 94.85437pt x 133.24782pt>
+File: logo.png Graphic file (type png)
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 22.
+(pdftex.def)             Requested size: 56.91304pt x 79.9493pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Abhz/Desktop/Pro
+ject/draft_report new/logo.png>]) ("C:\Users\Abhz\Desktop\Project\draft_report 
+new\certificate.tex"
+File: logo.png Graphic file (type png)
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 10.
+(pdftex.def)             Requested size: 56.9055pt x 79.93913pt.
+
+("C:\Users\Abhz\Desktop\Project\draft_report new\certi_content.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (0.24936pt too wide) in paragraph at lines 39--43
+ [] 
+ []
+
+) ("C:\Users\Abhz\Desktop\Project\draft_report new\ack.tex" [2]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+)
+Overfull \hbox (21.82436pt too wide) in paragraph at lines 20--75
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--75
+
+ []
+
+("C:\Users\Abhz\Desktop\Project\draft_report new\abstract1.tex" [3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 14--77
+
+ []
+
+[4
+
+]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 84.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 85.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 86.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 87.
+
+("C:\Users\Abhz\Desktop\Project\draft_report new\draft_report.lof")
+\tf@lof=\write4
+ [4]
+("C:\Users\Abhz\Desktop\Project\draft_report new\draft_report.lot")
+\tf@lot=\write5
+ [5]
+("C:\Users\Abhz\Desktop\Project\draft_report new\draft_report.toc" [6])
+\tf@toc=\write6
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+
+ []
+
+[2]
+Chapter 2.
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Overfull \hbox (14.79794pt too wide) in paragraph at lines 144--175
+\OT1/cmr/bx/n/12 Authors : KEI HASHIMOTO, JU-NICHI YA-M-AG-ISHI, WILLIAM BYRNE,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--175
+
+ []
+
+[3
+
+] [4] [5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 179.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 179.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+[6]
+Chapter 3.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[7
+
+]
+Overfull \hbox (1.99106pt too wide) in paragraph at lines 212--212
+ |[]\OT1/cmr/bx/n/14.4 DESIGN AND IM-PLE-MEN-TA-TION CON-STRAINTS| 
+ []
+
+[8]
+Overfull \hbox (5.31564pt too wide) in paragraph at lines 236--236
+ |[]\OT1/cmr/bx/n/17.28 EXTERNAL IN-TER-FACE RE-QUIRE-MENTS| 
+ []
+
+[9] [10] <sysflow.png, id=68, 744.7825pt x 377.41pt>
+File: sysflow.png Graphic file (type png)
+ <use sysflow.png>
+Package pdftex.def Info: sysflow.png used on input line 296.
+(pdftex.def)             Requested size: 446.87296pt x 226.44774pt.
+
+Overfull \hbox (13.25294pt too wide) in paragraph at lines 296--296
+ [][] 
+ []
+
+[11 <C:/Users/Abhz/Desktop/Project/draft_report new/sysflow.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 306.
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--344
+
+ []
+
+[12] [13]
+Overfull \hbox (3.84036pt too wide) in paragraph at lines 403--403
+[]|\OT1/cmr/bx/n/12 DURATION| 
+ []
+
+
+Overfull \hbox (2.95128pt too wide) in paragraph at lines 403--404
+[]|\OT1/cmr/bx/n/12 COMPLETION| 
+ []
+
+
+Overfull \hbox (34.63535pt too wide) in paragraph at lines 401--429
+[][] 
+ []
+
+
+Overfull \hbox (3.84036pt too wide) in paragraph at lines 437--437
+[]|\OT1/cmr/bx/n/12 DURATION| 
+ []
+
+
+Overfull \hbox (2.95128pt too wide) in paragraph at lines 437--438
+[]|\OT1/cmr/bx/n/12 COMPLETION| 
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 452--452
+[]|\OT1/cmr/m/n/12 3 Days Per
+ []
+
+
+Overfull \hbox (34.63535pt too wide) in paragraph at lines 435--457
+[][] 
+ []
+
+[14]
+Chapter 4.
+<systemarchitecture.png, id=86, 756.8275pt x 355.3275pt>
+File: systemarchitecture.png Graphic file (type png)
+
+<use systemarchitecture.png>
+Package pdftex.def Info: systemarchitecture.png used on input line 475.
+(pdftex.def)             Requested size: 431.39616pt x 202.53877pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--481
+
+ []
+
+[15
+
+ <C:/Users/Abhz/Desktop/Project/draft_report new/systemarchitecture.png>]
+<IoTArch.png, id=91, 495.8525pt x 339.2675pt>
+File: IoTArch.png Graphic file (type png)
+ <use IoTArch.png>
+Package pdftex.def Info: IoTArch.png used on input line 492.
+(pdftex.def)             Requested size: 371.88846pt x 254.45pt.
+ [16 <C:/Users/Abhz/Desktop/Project/draft_report new/IoTArch.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+
+ []
+
+<CloudArch.png, id=96, 504.88625pt x 481.8pt>
+File: CloudArch.png Graphic file (type png)
+ <use CloudArch.png>
+Package pdftex.def Info: CloudArch.png used on input line 504.
+(pdftex.def)             Requested size: 302.93407pt x 289.08221pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
+
+ []
+
+[17 <C:/Users/Abhz/Desktop/Project/draft_report new/CloudArch.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 546--551
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 564--569
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--588
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 600--605
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--624
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 639--644
+
+ []
+
+[21] <UseCase.JPG, id=114, 558.58687pt x 472.01344pt>
+File: UseCase.JPG Graphic file (type jpg)
+ <use UseCase.JPG>
+Package pdftex.def Info: UseCase.JPG used on input line 664.
+(pdftex.def)             Requested size: 418.93913pt x 354.0092pt.
+
+[22 <C:/Users/Abhz/Desktop/Project/draft_report new/UseCase.JPG>]
+<Class.JPG, id=118, 368.1253pt x 396.7322pt>
+File: Class.JPG Graphic file (type jpg)
+ <use Class.JPG>
+Package pdftex.def Info: Class.JPG used on input line 672.
+(pdftex.def)             Requested size: 276.09329pt x 297.5484pt.
+
+<Activity.JPG, id=119, 599.23875pt x 463.7325pt>
+File: Activity.JPG Graphic file (type jpg)
+ <use Activity.JPG>
+Package pdftex.def Info: Activity.JPG used on input line 679.
+(pdftex.def)             Requested size: 449.42796pt x 347.79851pt.
+
+Overfull \hbox (15.80795pt too wide) in paragraph at lines 679--679
+ [][] 
+ []
+
+[23 <C:/Users/Abhz/Desktop/Project/draft_report new/Class.JPG>] [24 <C:/Users/A
+bhz/Desktop/Project/draft_report new/Activity.JPG>]
+<Deployment.JPG, id=127, 580.41844pt x 423.83344pt>
+File: Deployment.JPG Graphic file (type jpg)
+ <use Deployment.JPG>
+Package pdftex.def Info: Deployment.JPG used on input line 687.
+(pdftex.def)             Requested size: 435.31276pt x 317.87428pt.
+
+Overfull \hbox (1.69275pt too wide) in paragraph at lines 687--687
+ [][] 
+ []
+
+[25 <C:/Users/Abhz/Desktop/Project/draft_report new/Deployment.JPG>]
+<Sequence.JPG, id=131, 621.07031pt x 442.65375pt>
+File: Sequence.JPG Graphic file (type jpg)
+ <use Sequence.JPG>
+Package pdftex.def Info: Sequence.JPG used on input line 695.
+(pdftex.def)             Requested size: 403.69092pt x 287.72151pt.
+ [26 <C:/Users/Abhz/Desktop/Project/draft_report new/Sequence.JPG>]
+<StateChart.JPG, id=135, 529.98pt x 423.08063pt>
+File: StateChart.JPG Graphic file (type jpg)
+ <use StateChart.JPG>
+Package pdftex.def Info: StateChart.JPG used on input line 703.
+(pdftex.def)             Requested size: 370.98346pt x 296.15442pt.
+ [27 <C:/Users/Abhz/Desktop/Project/draft_report new/StateChart.JPG>]
+Chapter 5.
+[28
+
+] [29]
+Chapter 6.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[30
+
+]
+Chapter 7.
+[31
+
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [32
+
+] [33] ("C:\Users\Abhz\Desktop\Project\draft_report new\appendixA.tex"
+Appendix A.
+) ("C:\Users\Abhz\Desktop\Project\draft_report new\appendixB.tex" [34
+
+]
+Appendix B.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 16--16
+\OT1/cmr/m/n/12 out-put with given min-i-
+ []
+
+
+Overfull \hbox (30.7713pt too wide) in paragraph at lines 12--22
+[][] 
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 32--32
+[]|\OT1/cmr/m/n/12 To de-fine func-tion-al-ity of
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 32--33
+[]|\OT1/cmr/m/n/12 Features should work in
+ []
+
+
+Overfull \hbox (30.7713pt too wide) in paragraph at lines 28--39
+[][] 
+ []
+
+
+Overfull \hbox (30.7713pt too wide) in paragraph at lines 42--51
+[][] 
+ []
+
+[35
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 82--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+
+ []
+
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no æ in font cmr12!
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+<nprelation.PNG, id=171, 331.2375pt x 198.7425pt>
+File: nprelation.PNG Graphic file (type png)
+ <use nprelation.PNG>
+Package pdftex.def Info: nprelation.PNG used on input line 132.
+(pdftex.def)             Requested size: 298.11098pt x 178.86658pt.
+ [38]
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--174
+
+ []
+
+[39 <C:/Users/Abhz/Desktop/Project/draft_report new/nprelation.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 175--178
+
+ []
+
+[40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
+
+ []
+
+File: sysflow.png Graphic file (type png)
+<use sysflow.png>
+Package pdftex.def Info: sysflow.png used on input line 269.
+(pdftex.def)             Requested size: 446.87296pt x 226.44774pt.
+
+Overfull \hbox (13.25294pt too wide) in paragraph at lines 269--270
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+[43]
+File: UseCase.JPG Graphic file (type jpg)
+ <use UseCase.JPG>
+Package pdftex.def Info: UseCase.JPG used on input line 280.
+(pdftex.def)             Requested size: 418.93913pt x 354.0092pt.
+ [44]
+File: Class.JPG Graphic file (type jpg)
+ <use Class.JPG>
+Package pdftex.def Info: Class.JPG used on input line 288.
+(pdftex.def)             Requested size: 276.09329pt x 297.5484pt.
+File: Activity.JPG Graphic file (type jpg)
+ <use Activity.JPG>
+Package pdftex.def Info: Activity.JPG used on input line 295.
+(pdftex.def)             Requested size: 449.42796pt x 347.79851pt.
+
+Overfull \hbox (15.80795pt too wide) in paragraph at lines 295--295
+ [][] 
+ []
+
+[45] [46]
+File: Deployment.JPG Graphic file (type jpg)
+ <use Deployment.JPG>
+Package pdftex.def Info: Deployment.JPG used on input line 303.
+(pdftex.def)             Requested size: 435.31276pt x 317.87428pt.
+
+Overfull \hbox (1.69275pt too wide) in paragraph at lines 303--303
+ [][] 
+ []
+
+[47]
+File: Sequence.JPG Graphic file (type jpg)
+ <use Sequence.JPG>
+Package pdftex.def Info: Sequence.JPG used on input line 311.
+(pdftex.def)             Requested size: 403.69092pt x 287.72151pt.
+ [48]
+File: StateChart.JPG Graphic file (type jpg)
+ <use StateChart.JPG>
+Package pdftex.def Info: StateChart.JPG used on input line 319.
+(pdftex.def)             Requested size: 370.98346pt x 296.15442pt.
+ [49]
+Underfull \hbox (badness 10000) in paragraph at lines 330--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--339
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[50]
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--383
+
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 392--392
+[]|\OT1/cmr/m/n/12 Code and sys-tems sta-tus
+ []
+
+
+Underfull \hbox (badness 6461) in paragraph at lines 392--392
+[]|\OT1/cmr/m/n/12 Avoids mis-un-der-stand-ings
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]|\OT1/cmr/m/n/12 Testing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+\OT1/cmr/m/n/12 scope,schedule,duration,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]|\OT1/cmr/m/n/12 Communications plan--
+ []
+
+
+Overfull \hbox (30.7713pt too wide) in paragraph at lines 386--406
+[][] 
+ []
+
+<SoftwareTesting.JPG, id=215, 621.82312pt x 205.5178pt>
+File: SoftwareTesting.JPG Graphic file (type jpg)
+
+<use SoftwareTesting.JPG>
+Package pdftex.def Info: SoftwareTesting.JPG used on input line 412.
+(pdftex.def)             Requested size: 404.18024pt x 133.58499pt.
+ [51] [52 <C:/Users/Abhz/Desktop/Project/draft_report new/SoftwareTesting.JPG>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
+
+ []
+
+[53]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--453
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--459
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--464
+
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 478--478
+[]|\OT1/cmr/m/n/12 Command is recog-
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 480--480
+[]|\OT1/cmr/m/n/12 To check that data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+[]|\OT1/cmr/m/n/12 Android App
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+\OT1/cmr/m/n/12 and Fire-base
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+[]|\OT1/cmr/m/n/12 Android Ap-pli-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+\OT1/cmr/m/n/12 tion Up-dates are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+\OT1/cmr/m/n/12 recog-nised by the
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 482--482
+[]|\OT1/cmr/m/n/12 Performance of IOT
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+[]|\OT1/cmr/m/n/12 To check whether
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\OT1/cmr/m/n/12 IOT Box per-forms
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 482--482
+\OT1/cmr/m/n/12 cor-rectly on the in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\OT1/cmr/m/n/12 put of con-cerned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+[]|\OT1/cmr/m/n/12 IOT Box Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\OT1/cmr/m/n/12 lated Vo-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]|\OT1/cmr/m/n/12 To check whether
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+\OT1/cmr/m/n/12 down-time, real-time
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 484--484
+\OT1/cmr/m/n/12 ser-vices and Pro-vide
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 484--484
+[]|\OT1/cmr/m/n/12 Firebase Cloud
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 484--484
+[]|\OT1/cmr/m/n/12 Firebase Cloud Db
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+\OT1/cmr/m/n/12 works as ex-pected
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+\OT1/cmr/m/n/12 with Python and
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 486--486
+\OT1/cmr/m/n/12 AI De-vice Vo-cal re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/12 Vocal Com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+\OT1/cmr/m/n/12 mands along
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+\OT1/cmr/m/n/12 with re-quired
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/12 Output vo-cal com-
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 486--486
+\OT1/cmr/m/n/12 mand is the cor-rect
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 488--488
+\OT1/cmr/m/n/12 the mod-ules of the
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 488--488
+\OT1/cmr/m/n/12 plat-form is work-ing
+ []
+
+
+Overfull \hbox (43.17128pt too wide) in paragraph at lines 474--492
+[][] 
+ []
+
+) [54] [55] ("C:\Users\Abhz\Desktop\Project\draft_report new\draft_report.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14889 strings out of 493921
+ 310112 string characters out of 3144880
+ 362140 words of memory out of 3000000
+ 17859 multiletter control sequences out of 15000+200000
+ 14526 words of font info for 55 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 48i,13n,66p,890b,565s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on draft_report.pdf (63 pages, 782654 bytes).
+PDF statistics:
+ 263 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+
